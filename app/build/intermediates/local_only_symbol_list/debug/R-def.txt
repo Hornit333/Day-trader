@@ -1,0 +1,10 @@
+R_DEF: Internal format may change without notice
+local
+id buyButton
+id priceText
+id recyclerView
+id sellButton
+id symbolText
+layout activity_main
+layout activity_trade
+layout item_product
