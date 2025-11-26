@@ -1,5 +1,7 @@
 package com.example.tradingapp
 
+import android.graphics.Color
+import android.graphics.Paint
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -14,8 +16,6 @@ import com.github.mikephil.charting.data.CandleData
 import com.github.mikephil.charting.data.CandleDataSet
 import com.github.mikephil.charting.data.CandleEntry
 import kotlinx.coroutines.*
-import kotlinx.coroutines.flow.collect
-import kotlinx.coroutines.flow.flow
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import okhttp3.WebSocket
@@ -31,7 +31,7 @@ class ChartsFragment : Fragment() {
     private val products = listOf("BTC-USD", "ETH-USD", "SOL-USD", "DOGE-USD", "ADA-USD")
     private var selectedProduct = products[0]
     private val candleEntries = mutableListOf<CandleEntry>()
-    private lateinit var webSocket: WebSocket
+    private var webSocket: WebSocket? = null
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -95,6 +95,7 @@ class ChartsFragment : Fragment() {
     }
 
     private fun startWebSocket() {
+        webSocket?.cancel()
         val client = OkHttpClient.Builder().readTimeout(0, TimeUnit.MILLISECONDS).build()
         val request = Request.Builder().url("wss://ws-feed.pro.coinbase.com").build()
         webSocket = client.newWebSocket(request, object : WebSocketListener() {
@@ -127,15 +128,36 @@ class ChartsFragment : Fragment() {
     }
 
     private fun updateChart() {
-        val dataSet = CandleDataSet(candleEntries, "Price")
-        val candleData = CandleData(dataSet)
-        binding.candleStickChart.data = candleData
-        binding.candleStickChart.invalidate()
+        val dataSet = CandleDataSet(candleEntries, "Price").apply {
+            color = Color.rgb(80, 80, 80)
+            shadowColor = Color.DKGRAY
+            shadowWidth = 0.7f
+            decreasingColor = Color.RED
+            decreasingPaintStyle = Paint.Style.FILL
+            increasingColor = Color.GREEN
+            increasingPaintStyle = Paint.Style.FILL
+            neutralColor = Color.BLUE
+            setDrawValues(false)
+        }
+
+        binding.candleStickChart.apply {
+            description.text = "Candlestick Chart"
+            description.textColor = Color.WHITE
+            description.textSize = 14f
+
+            xAxis.setDrawGridLines(false)
+            axisLeft.setDrawGridLines(false)
+            axisRight.isEnabled = false
+            legend.isEnabled = false
+
+            data = CandleData(dataSet)
+            invalidate()
+        }
     }
 
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
-        webSocket.cancel()
+        webSocket?.cancel()
     }
 }
