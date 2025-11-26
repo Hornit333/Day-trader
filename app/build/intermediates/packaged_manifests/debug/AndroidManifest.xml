@@ -22,7 +22,6 @@
         android:debuggable="true"
         android:extractNativeLibs="false"
         android:label="Coinbase Trader"
-        android:testOnly="true"
         android:theme="@style/Theme.Material3.DayNight" >
         <activity
             android:name="com.example.tradingapp.MainActivity"

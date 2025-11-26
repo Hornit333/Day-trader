@@ -4,6 +4,7 @@ ADDED from C:\Users\jay\StudioProjects\Day-trader\app\src\main\AndroidManifest.x
 INJECTED from C:\Users\jay\StudioProjects\Day-trader\app\src\main\AndroidManifest.xml:2:1-20:12
 INJECTED from C:\Users\jay\StudioProjects\Day-trader\app\src\main\AndroidManifest.xml:2:1-20:12
 INJECTED from C:\Users\jay\StudioProjects\Day-trader\app\src\main\AndroidManifest.xml:2:1-20:12
+MERGED from [androidx.databinding:viewbinding:8.2.2] C:\Users\jay\.gradle\caches\9.0-milestone-1\transforms\8c7c29612707c12dd641205a16448202\transformed\jetified-viewbinding-8.2.2\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\jay\.gradle\caches\9.0-milestone-1\transforms\4d6a7173c5ef17773b755158e43e0afa\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\jay\.gradle\caches\9.0-milestone-1\transforms\ef646a8d082a19f8bd828a1791d574bf\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\jay\.gradle\caches\9.0-milestone-1\transforms\aedb68803c9dda89b73681977bdbdcc4\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
@@ -36,6 +37,7 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\j
 MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\jay\.gradle\caches\9.0-milestone-1\transforms\ae357cb8d23e8394ab5339487ef8f7f7\transformed\jetified-core-ktx-1.12.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\jay\.gradle\caches\9.0-milestone-1\transforms\98349e5510eb560dd0548d451888af84\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\jay\.gradle\caches\9.0-milestone-1\transforms\50063fbe7d3ccf927ada7828a1698b42\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\jay\.gradle\caches\9.0-milestone-1\transforms\3092591c2089d320bda76c6e24bcde78\transformed\jetified-MPAndroidChart-v3.1.0\AndroidManifest.xml:2:1-20:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\jay\.gradle\caches\9.0-milestone-1\transforms\abce97451b127029e3ee428f6b8a8804\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\jay\.gradle\caches\9.0-milestone-1\transforms\9a6b8a05675a17c8dc0e2632c9f92eb5\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\jay\.gradle\caches\9.0-milestone-1\transforms\454d2149858681e3f0a92297f80edf3a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
@@ -61,7 +63,6 @@ ADDED from C:\Users\jay\StudioProjects\Day-trader\app\src\main\AndroidManifest.x
 application
 ADDED from C:\Users\jay\StudioProjects\Day-trader\app\src\main\AndroidManifest.xml:6:5-19:19
 INJECTED from C:\Users\jay\StudioProjects\Day-trader\app\src\main\AndroidManifest.xml:6:5-19:19
-INJECTED from C:\Users\jay\StudioProjects\Day-trader\app\src\main\AndroidManifest.xml:6:5-19:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\jay\.gradle\caches\9.0-milestone-1\transforms\4d6a7173c5ef17773b755158e43e0afa\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\jay\.gradle\caches\9.0-milestone-1\transforms\4d6a7173c5ef17773b755158e43e0afa\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\jay\.gradle\caches\9.0-milestone-1\transforms\ef646a8d082a19f8bd828a1791d574bf\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -84,8 +85,6 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\jay\.gradle\caches
 		ADDED from [androidx.core:core:1.12.0] C:\Users\jay\.gradle\caches\9.0-milestone-1\transforms\c873dfae54dc8a40d769d8e5eaa37fe5\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 	android:label
 		ADDED from C:\Users\jay\StudioProjects\Day-trader\app\src\main\AndroidManifest.xml:8:9-40
-	android:testOnly
-		INJECTED from C:\Users\jay\StudioProjects\Day-trader\app\src\main\AndroidManifest.xml
 	android:allowBackup
 		ADDED from C:\Users\jay\StudioProjects\Day-trader\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme
@@ -114,6 +113,8 @@ uses-sdk
 INJECTED from C:\Users\jay\StudioProjects\Day-trader\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\jay\StudioProjects\Day-trader\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\jay\StudioProjects\Day-trader\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.2.2] C:\Users\jay\.gradle\caches\9.0-milestone-1\transforms\8c7c29612707c12dd641205a16448202\transformed\jetified-viewbinding-8.2.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.2.2] C:\Users\jay\.gradle\caches\9.0-milestone-1\transforms\8c7c29612707c12dd641205a16448202\transformed\jetified-viewbinding-8.2.2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\jay\.gradle\caches\9.0-milestone-1\transforms\4d6a7173c5ef17773b755158e43e0afa\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\jay\.gradle\caches\9.0-milestone-1\transforms\4d6a7173c5ef17773b755158e43e0afa\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\jay\.gradle\caches\9.0-milestone-1\transforms\ef646a8d082a19f8bd828a1791d574bf\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
@@ -178,6 +179,8 @@ MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\jay\.gr
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\jay\.gradle\caches\9.0-milestone-1\transforms\98349e5510eb560dd0548d451888af84\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\jay\.gradle\caches\9.0-milestone-1\transforms\50063fbe7d3ccf927ada7828a1698b42\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\jay\.gradle\caches\9.0-milestone-1\transforms\50063fbe7d3ccf927ada7828a1698b42\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\jay\.gradle\caches\9.0-milestone-1\transforms\3092591c2089d320bda76c6e24bcde78\transformed\jetified-MPAndroidChart-v3.1.0\AndroidManifest.xml:16:5-18:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\jay\.gradle\caches\9.0-milestone-1\transforms\3092591c2089d320bda76c6e24bcde78\transformed\jetified-MPAndroidChart-v3.1.0\AndroidManifest.xml:16:5-18:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\jay\.gradle\caches\9.0-milestone-1\transforms\abce97451b127029e3ee428f6b8a8804\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\jay\.gradle\caches\9.0-milestone-1\transforms\abce97451b127029e3ee428f6b8a8804\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\jay\.gradle\caches\9.0-milestone-1\transforms\9a6b8a05675a17c8dc0e2632c9f92eb5\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44

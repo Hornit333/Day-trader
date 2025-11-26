@@ -1,10 +1,17 @@
 R_DEF: Internal format may change without notice
 local
 id buyButton
+id candleStickChart
 id priceText
+id productSpinner
 id recyclerView
 id sellButton
 id symbolText
+id tabLayout
+id viewPager
 layout activity_main
 layout activity_trade
+layout fragment_charts
+layout fragment_portfolio
+layout fragment_products
 layout item_product

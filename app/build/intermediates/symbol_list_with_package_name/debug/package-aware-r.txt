@@ -3177,6 +3177,7 @@ id buyButton
 id cache_measures
 id callMeasure
 id cancel_button
+id candleStickChart
 id carryVelocity
 id center
 id centerCrop
@@ -3431,6 +3432,7 @@ id position
 id postLayout
 id pressed
 id priceText
+id productSpinner
 id progress_circular
 id progress_horizontal
 id radio
@@ -3508,6 +3510,7 @@ id submenuarrow
 id submit_area
 id supportScrollUp
 id symbolText
+id tabLayout
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -3560,6 +3563,7 @@ id unlabeled
 id up
 id useLogo
 id vertical_only
+id viewPager
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -3709,6 +3713,9 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_charts
+layout fragment_portfolio
+layout fragment_products
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout item_product

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\jay\\.gradle\\daemon\\9.0-milestone-1\\com.example.tradingapp-mergeDebugResources-31:\\layout\\activity_trade.xml",
+        "source": "C:\\Users\\jay\\.gradle\\daemon\\9.0-milestone-1\\com.example.tradingapp-main-34:\\layout\\activity_trade.xml"
+    },
+    {
+        "merged": "C:\\Users\\jay\\.gradle\\daemon\\9.0-milestone-1\\com.example.tradingapp-mergeDebugResources-31:\\layout\\item_product.xml",
+        "source": "C:\\Users\\jay\\.gradle\\daemon\\9.0-milestone-1\\com.example.tradingapp-main-34:\\layout\\item_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\jay\\.gradle\\daemon\\9.0-milestone-1\\com.example.tradingapp-mergeDebugResources-31:\\layout\\fragment_portfolio.xml",
+        "source": "C:\\Users\\jay\\.gradle\\daemon\\9.0-milestone-1\\com.example.tradingapp-main-34:\\layout\\fragment_portfolio.xml"
+    },
+    {
+        "merged": "C:\\Users\\jay\\.gradle\\daemon\\9.0-milestone-1\\com.example.tradingapp-mergeDebugResources-31:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\jay\\.gradle\\daemon\\9.0-milestone-1\\com.example.tradingapp-main-34:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.tradingapp-mergeDebugResources-31:/layout/fragment_charts.xml",
+        "source": "com.example.tradingapp-main-34:/layout/fragment_charts.xml"
+    },
+    {
+        "merged": "C:\\Users\\jay\\.gradle\\daemon\\9.0-milestone-1\\com.example.tradingapp-mergeDebugResources-31:\\layout\\fragment_products.xml",
+        "source": "C:\\Users\\jay\\.gradle\\daemon\\9.0-milestone-1\\com.example.tradingapp-main-34:\\layout\\fragment_products.xml"
+    }
+]

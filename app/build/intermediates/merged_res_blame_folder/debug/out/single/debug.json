@@ -1,11 +1,23 @@
 [
     {
-        "merged": "com.example.tradingapp-merged_res-32:/layout_item_product.xml.flat",
-        "source": "com.example.tradingapp-main-34:/layout/item_product.xml"
+        "merged": "C:\\Users\\jay\\.gradle\\daemon\\9.0-milestone-1\\com.example.tradingapp-merged_res-32:\\layout_fragment_portfolio.xml.flat",
+        "source": "C:\\Users\\jay\\.gradle\\daemon\\9.0-milestone-1\\com.example.tradingapp-main-34:\\layout\\fragment_portfolio.xml"
+    },
+    {
+        "merged": "com.example.tradingapp-merged_res-32:/layout_fragment_charts.xml.flat",
+        "source": "com.example.tradingapp-main-34:/layout/fragment_charts.xml"
+    },
+    {
+        "merged": "C:\\Users\\jay\\.gradle\\daemon\\9.0-milestone-1\\com.example.tradingapp-merged_res-32:\\layout_fragment_products.xml.flat",
+        "source": "C:\\Users\\jay\\.gradle\\daemon\\9.0-milestone-1\\com.example.tradingapp-main-34:\\layout\\fragment_products.xml"
     },
     {
         "merged": "C:\\Users\\jay\\.gradle\\daemon\\9.0-milestone-1\\com.example.tradingapp-merged_res-32:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\jay\\.gradle\\daemon\\9.0-milestone-1\\com.example.tradingapp-main-34:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jay\\.gradle\\daemon\\9.0-milestone-1\\com.example.tradingapp-merged_res-32:\\layout_item_product.xml.flat",
+        "source": "C:\\Users\\jay\\.gradle\\daemon\\9.0-milestone-1\\com.example.tradingapp-main-34:\\layout\\item_product.xml"
     },
     {
         "merged": "C:\\Users\\jay\\.gradle\\daemon\\9.0-milestone-1\\com.example.tradingapp-merged_res-32:\\layout_activity_trade.xml.flat",
